@@ -1,3 +1,4 @@
+release_repo_url: git@github.com:revyos-ros/generate_parameter_library-release.git
 tracks:
   humble:
     actions:
