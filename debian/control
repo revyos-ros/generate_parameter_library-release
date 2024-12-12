@@ -1,0 +1,12 @@
+Source: ros-jazzy-cmake-generate-parameter-module-example
+Section: misc
+Priority: optional
+Maintainer: Paul Gesel <paul.gesel@picknik.ai>
+Build-Depends: debhelper (>= 9.0.0), ros-jazzy-ament-cmake-python, ros-jazzy-ament-lint-auto <!nocheck>, ros-jazzy-ament-lint-common <!nocheck>, ros-jazzy-generate-parameter-library, ros-jazzy-rclpy, ros-jazzy-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-jazzy-cmake-generate-parameter-module-example
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-jazzy-generate-parameter-library, ros-jazzy-rclpy, ros-jazzy-ros-workspace
+Description: Example usage of generate_parameter_library for a python module with cmake.
