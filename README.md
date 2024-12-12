@@ -1,3 +1,32 @@
+## generate_parameter_library (jazzy) - 0.3.9-1
+
+The packages in the `generate_parameter_library` repository were released into the `jazzy` distro by running `/home/z572/gits/revyos-ros/venv2/bin/bloom-release -r jazzy generate_parameter_library --override-release-repository-push-url git@github.com:revyos-ros/generate_parameter_library-release.git` on `Thu, 12 Dec 2024 12:55:01 -0000`
+
+These packages were released:
+- `cmake_generate_parameter_module_example`
+- `generate_parameter_library`
+- `generate_parameter_library_example`
+- `generate_parameter_library_py`
+- `generate_parameter_module_example`
+- `parameter_traits`
+
+Version of package(s) in repository `generate_parameter_library`:
+
+- upstream repository: https://github.com/PickNikRobotics/generate_parameter_library.git
+- release repository: https://github.com/revyos-ros/generate_parameter_library-release.git
+- rosdistro version: `0.3.9-1`
+- old version: `0.3.8-5`
+- new version: `0.3.9-1`
+
+Versions of tools used:
+
+- bloom version: `0.12.0`
+- catkin_pkg version: `1.0.0`
+- rosdep version: `0.22.2`
+- rosdistro version: `0.9.0`
+- vcstools version: `0.1.42`
+
+
 ## generate_parameter_library (jazzy) - 0.3.8-5
 
 The packages in the `generate_parameter_library` repository were released into the `jazzy` distro by running `/home/z572/gits/revyos-ros/venv/bin/bloom-release -r jazzy generate_parameter_library --override-release-repository-push-url git@github.com:revyos-ros/generate_parameter_library-release.git` on `Sat, 15 Jun 2024 16:43:30 -0000`
