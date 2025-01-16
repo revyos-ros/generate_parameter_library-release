@@ -1,0 +1,12 @@
+Source: ros-humble-generate-parameter-library
+Section: misc
+Priority: optional
+Maintainer: Paul Gesel <paul.gesel@picknik.ai>
+Build-Depends: debhelper (>= 9.0.0), libfmt-dev, ros-humble-ament-cmake, ros-humble-ament-cmake-python, ros-humble-ament-lint-auto <!nocheck>, ros-humble-ament-lint-common <!nocheck>, ros-humble-parameter-traits, ros-humble-rclcpp, ros-humble-rclcpp-lifecycle, ros-humble-rclpy, ros-humble-rsl, ros-humble-tcb-span, ros-humble-tl-expected, ros-humble-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-humble-generate-parameter-library
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libfmt-dev, ros-humble-generate-parameter-library-py, ros-humble-parameter-traits, ros-humble-rclcpp, ros-humble-rclcpp-lifecycle, ros-humble-rclpy, ros-humble-rsl, ros-humble-tcb-span, ros-humble-tl-expected, ros-humble-ros-workspace
+Description: CMake to generate ROS parameter library.
