@@ -1,0 +1,8 @@
+ros-jazzy-generate-parameter-library-example-external (0.4.0-1bookworm) bookworm; urgency=high
+
+  * Change header install path (#213 <https://github.com/PickNikRobotics/generate_parameter_library/issues/213>)
+  * Contributors: Auguste Bourgois
+
+ -- Paul Gesel <paul.gesel@picknik.ai>  Sun, 12 Jan 2025 16:00:00 -0000
+
+
