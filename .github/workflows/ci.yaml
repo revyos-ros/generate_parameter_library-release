@@ -20,9 +20,9 @@ jobs:
             ROS_REPO: testing
           - ROS_DISTRO: rolling
             ROS_REPO: main
-          - ROS_DISTRO: iron
+          - ROS_DISTRO: jazzy
             ROS_REPO: testing
-          - ROS_DISTRO: iron
+          - ROS_DISTRO: jazzy
             ROS_REPO: main
           - ROS_DISTRO: humble
             ROS_REPO: testing
@@ -47,9 +47,11 @@ jobs:
         with:
           name: test-results-${{ matrix.env.NAME }}
           path: ${{ env.BASEDIR }}/target_ws/**/test_results/**/*.xml
+          overwrite: true
       - name: Upload log artifacts (on failure)
         uses: actions/upload-artifact@v4
         if: failure()
         with:
-          name: test-results-${{ matrix.env.NAME }}
+          name: logs-${{ matrix.env.NAME }}
           path: ${{ env.BASEDIR }}/target_ws/log/*
+          overwrite: true
