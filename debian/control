@@ -1,0 +1,12 @@
+Source: ros-jazzy-parameter-traits
+Section: misc
+Priority: optional
+Maintainer: Tyler Weaver <maybe@tylerjw.dev>
+Build-Depends: debhelper (>= 9.0.0), libfmt-dev, ros-jazzy-ament-cmake, ros-jazzy-ament-cmake-gtest <!nocheck>, ros-jazzy-ament-lint-auto <!nocheck>, ros-jazzy-ament-lint-common <!nocheck>, ros-jazzy-rclcpp, ros-jazzy-rsl, ros-jazzy-tcb-span, ros-jazzy-tl-expected, ros-jazzy-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-jazzy-parameter-traits
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libfmt-dev, ros-jazzy-rclcpp, ros-jazzy-rsl, ros-jazzy-tcb-span, ros-jazzy-tl-expected, ros-jazzy-ros-workspace
+Description: Functions and types for rclcpp::Parameter
