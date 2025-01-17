@@ -1,0 +1,12 @@
+Source: ros-jazzy-generate-parameter-library-example-external
+Section: misc
+Priority: optional
+Maintainer: Paul Gesel <paul.gesel@picknik.ai>
+Build-Depends: debhelper (>= 9.0.0), ros-jazzy-ament-cmake, ros-jazzy-ament-lint-auto <!nocheck>, ros-jazzy-ament-lint-common <!nocheck>, ros-jazzy-generate-parameter-library-example, ros-jazzy-rclcpp, ros-jazzy-rclcpp-components, ros-jazzy-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-jazzy-generate-parameter-library-example-external
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-jazzy-ament-cmake-core, ros-jazzy-generate-parameter-library-example, ros-jazzy-rclcpp, ros-jazzy-rclcpp-components, ros-jazzy-ros-workspace
+Description: Example usage of a parameter header generated in another package.
